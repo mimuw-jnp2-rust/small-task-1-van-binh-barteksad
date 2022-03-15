@@ -15,7 +15,7 @@ for test in *.in; do
     else
         echo "Test $test passed"
     fi
-    rm ${testname}.result
+    # rm ${testname}.result
 done
 echo "Ran $all tests, $failures failed"
 popd || exit 1
